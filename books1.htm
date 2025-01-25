@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Books</title>
+        <style>
+            body{
+                background-color: lightpink;
+            }
+            h1{
+                font-size: 600%;
+                text-align: center;
+            }
+            div h2{
+                font-size: 200%;
+                position: relative;
+                left: 50px;
+                bottom: 1px;
+            }
+            .books{
+             display: grid;
+             grid-template-columns: repeat(3, 1fr);
+             grid-gap: 40px;
+             margin-top: 40px;
+            }
+            .book{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 1px solid brown;
+            box-sizing: border-box;
+            box-shadow: 5px brown;
+            }
+            .book h3{
+            font-size: 24px;
+            margin-top: 0px;
+            }
+            .book p{
+            margin-top: 5px;
+            color: #666;
+            font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Books</h1>
+        <div>
+            <h2><u>Fictional Books:</u></h2>
+            <div class="books">
+                <div class="book">
+                    <img src="girl.jpg">
+                    <h3>A Good Girl's Guide to Murder</h3>
+                    <p>Holly Jackson</p>
+                    <p>$25.99</p>
+                </div>
+                <div class="book">
+                    <img src="things.jpg">
+                    <h3>Things We Never Got Over</h3>
+                    <p>Lucy Score</p>
+                    <p>$20.99</p>
+                </div>
+                <div class="book">
+                    <img src="maid.jpg">
+                    <h3>The Housemaid's Secret</h3>
+                    <p>Fredia McFadden</p>
+                    <p>$18.99</p>
+                </div>
+        </div>
+        <h2><u>Romantic Books:</u></h2>
+        <div class="books">
+            <div class="book">
+                <img src="not.jpg">
+                <h3>Not In My Book</h3>
+                <p>Katie Holt</p>
+                <p>$15.99</p>
+            </div>
+            <div class="book">
+                <img src="night.jpg">
+                <h3>North is the Night</h3>
+                <p>Emily Rath</p>
+                <p>$17.99</p>
+            </div>
+            <div class="book">
+                <img src="keep.jpg">
+                <h3>Keep Me</h3>
+                <p>Sara Cate</p>
+                <p>$19.99</p>
+            </div>
+    </div>
+    <h2><u>Comedy Books:</u></h2>
+    <div class="books">
+        <div class="book">
+            <img src="lady.jpg">
+            <h3>Act like a Lady Think like a Man</h3>
+            <p>Katie Holt</p>
+            <p>$23.99</p>
+        </div>
+        <div class="book">
+            <img src="witch.jpg">
+            <h3>Luck of the Witch</h3>
+            <p>K.E O'Connor</p>
+            <p>$18.99</p>
+        </div>
+        <div class="book">
+            <img src="forget.jpg">
+            <h3>Don't You Forget About Me</h3>
+            <p>Mhairi McFarlane</p>
+            <p>$21.99</p>
+        </div>
+</div>
+</body>
+</html>
